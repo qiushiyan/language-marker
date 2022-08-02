@@ -1,0 +1,74 @@
+---
+title: "hello world"
+format:
+    html: default
+filters:
+    - language-marker
+---
+
+```{python display-language}
+def fib(n):
+    if n < 2:
+        return n
+    return fib(n-1) + fib(n-2)
+```
+
+
+
+```{r}
+#| display-language: true
+fib <- function(n) {
+    if (n < 2) {
+        n
+    } else {
+        fib(n-1) + fib(n-2)
+    }
+}
+```
+
+```{.sql display-language=true}
+SELECT "HELLO WORLD"
+```
+
+```{.javascript display-language=true}
+function onClick() {
+    alert("hello world");
+}
+```
+
+
+```{.typescript display-language=true}
+interface User {
+  name: string;
+  id: number;
+}
+
+const user: User = {
+  name: "Hayes",
+  id: 0,
+};
+```
+
+```{.cpp display-language=true}
+int main() {
+    return 0;
+}
+```
+
+```{.rust display-language=true}
+fn main() {
+    println!("Hello, world!");
+}
+```
+
+```{.java display-language=true}
+public class Greetings {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+
+```{.lua display-language=true}
+print("Hello" .. " world!")
+```
