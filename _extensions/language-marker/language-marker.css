@@ -14,7 +14,7 @@
   bottom: 0;
 }
 
-.language-marker code.r::before {
+.language-marker code.R::before {
   content: "R";
   background: #276dc2;
   color: white;
