@@ -2,6 +2,8 @@
 
 A quarto extension to display the language for code blocks.
 
+See examples at https://qiushiyan.github.io/language-marker/example.
+
 Currently only includes some of my commonly used languages:
 
 - Python
@@ -33,7 +35,7 @@ filters:
 
 ## Usage
 
-```{.python display-language}
+```{{.python display-language}}
 import matplotlib.pyplot as plt
 plt.plot([1,23,2,4])
 plt.show()
